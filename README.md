@@ -46,7 +46,6 @@ drum-kit/
 ## 🧪 How to Use
 
 1. Clone or download this repository:
-   ```bash
  git clone https://github.com/nirupama26/drum-kit.git
 2. Open the project folder
 
