@@ -1,19 +1,19 @@
 for (var i =0;i<document.querySelectorAll(".drum").length;i++){
 
-
 document.querySelectorAll(".drum")[i].addEventListener("click", function() {
     
     var buttonselect = this.innerHTML;
     makeSound(buttonselect);
     buttonAnimation(buttonselect);
 });
+}
 
   document.addEventListener("keypress", function(event) {
     makeSound(event.key);
     buttonAnimation(event.key);
   });
 
-}
+
 
 function makeSound(key){
 
@@ -46,9 +46,8 @@ function makeSound(key){
             var kick = new Audio("sounds/kick-bass.mp3");
             kick.play();
             break;
-        default: console.log(buttonselect);
+        default: console.log(key);
     }
-
 
 }
 
@@ -58,5 +57,6 @@ function buttonAnimation(currentKey) {
         setTimeout(function(){
             activeButton.classList.remove("pressed");
         },100);
-    }
-        
+    }	
+
+
