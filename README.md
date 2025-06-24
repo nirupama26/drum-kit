@@ -69,3 +69,6 @@ Add background music or themes
 Display key presses visually
 
 Show real-time sound visualizer
+
+Deployed in :
+https://drum-kit-nine-ruby.vercel.app/
